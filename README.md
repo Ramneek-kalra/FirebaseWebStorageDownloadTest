@@ -5,7 +5,7 @@ Hivatalos doksi:
 https://firebase.google.com/docs/storage/web/start
 
 -  A RULES fülön a 4. sort cseréld ki erre.
-    Ezzel engedjük, hogy autentikáció nélkül lehessen feltölteni.
+    Ezzel engedjük, hogy autentikáció nélkül lehessen letölteni.
 	```sh
 	allow read, write: if true;
 	```
@@ -15,6 +15,4 @@ https://firebase.google.com/docs/storage/web/start
 - Az upload.js 3. sorába másold be a saját APIkey-edet.
 	A főoldalon az "Add Firebase to your web app" gombra kattintva kapod meg az APIkey-t.
 
-- Nyisd meg böngészővel az index.html-t és tölts fel valamilyen fájlt.
-
-- A Storage fülön a **files** mappában ott lesz a feltöltött fájl.
+- Nyisd meg böngészővel az index.html-t és nyomd meg a Download gombot.
